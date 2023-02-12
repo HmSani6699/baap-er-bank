@@ -36,7 +36,9 @@
                     class="bg-amber-400 p-6 rounded">
                     <h4 class="text-2xl">Withdraw
                     </h4>
-                    <h2 class="text-6xl">$00</h2>
+                    <h2 class="text-6xl">$<span
+                            id="total-withdraw">00</span>
+                    </h2>
                 </div>
                 <div
                     class="bg-lime-400 p-6 rounded">
@@ -59,7 +61,7 @@
                     </h4>
                     <input
                         class="w-8/12 block mb-3 px-3 py-2"
-                        type="email" name=""
+                        type="text" name=""
                         id="deposit-field"
                         placeholder="$Amount you want to deposit">
                     <button
@@ -76,8 +78,8 @@
                     </h4>
                     <input
                         class="w-8/12 block mb-3 px-3 py-2"
-                        type="email" name=""
-                        id="withdraw-fild"
+                        type="text" name=""
+                        id="withdraw-field"
                         placeholder="$Amount you want to withdraw">
                     <button
                         class="bg-yellow-600 text-white px-6 py-2 font-medium rounded"
