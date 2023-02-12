@@ -28,4 +28,6 @@ document.getElementById('deposit-button').addEventListener('click', function () 
 
     // step 6. set the current balance
     balanceElement.innerText = balancePreviousAmountString + depositInputValueString
-})
+});
+
+
