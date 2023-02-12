@@ -10,9 +10,9 @@ document.getElementById('submit-button').addEventListener('click', function () {
     let passwordValue = passwordInput.value;
 
     if (emailValue == 'hmsani@gmail.com' && passwordValue == 12345) {
-        console.log('valid user')
+        window.location.href = "bank.html";
     }
     else {
-        console.log('invalid user')
+        alert('invalid user')
     }
 })
